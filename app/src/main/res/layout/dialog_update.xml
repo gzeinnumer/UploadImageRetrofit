@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    android:gravity="center"
+    android:padding="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <EditText
+        android:enabled="false"
+        android:textAlignment="center"
+        android:id="@+id/id_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <EditText
+        android:layout_marginTop="16dp"
+        android:id="@+id/nama_dialog"
+        android:layout_width="299dp"
+        android:layout_height="match_parent" />
+    <Button
+        android:id="@+id/btn_pilihgambar"
+        android:layout_marginTop="16dp"
+        android:text="pilih gambar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <ImageView
+        android:id="@+id/gambar_dialog"
+        android:layout_marginTop="16dp"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="151dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"/>
+    <LinearLayout
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:text="Update"
+            android:layout_weight="1"
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Delete"
+            android:layout_weight="1"
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>
